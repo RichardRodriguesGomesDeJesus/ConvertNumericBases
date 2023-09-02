@@ -7,8 +7,26 @@
   <link rel="stylesheet" href="/assets/css/reset.css">
 </head>
 <body>
-  <main>
-    <h1>Conversor de Bases Numericas.</h1>
+  <main class="principal">
+    <h1 class="principal__title">Conversor de Bases Numericas.</h1>
+    <section class="principal__convert">
+      <form class="principal__convert___form" action="">
+        <div>
+          <label for="number">Numero</label>
+          <input type="number" name="number" id="number">
+        </div>
+        <div>
+          <label for="base">Base</label>
+          <select name="base" id="base">
+            <option value="">Escolha uma base numerica</option>
+            <option value="2">Binario - base 2</option>
+            <option value="8">Octagonal - base 8</option>
+            <option value="10">Decimal - base 10</option>
+            <option value="16">Hexadecimal - base 16</option>
+          </select>
+        </div>
+      </form>
+    </section>
   </main>
 </body>
 </html>
