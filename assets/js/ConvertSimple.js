@@ -1,6 +1,6 @@
 import SendMsg from "./msg.js"
 
-function ConvertBase10to2(number,base,initialBase,initialNumber) {
+function ConvertSimple(number,base,initialBase,initialNumber) {
   try {
     const iNumber = number
 
@@ -23,4 +23,4 @@ function ConvertBase10to2(number,base,initialBase,initialNumber) {
   }
 }
 
-export default ConvertBase10to2
+export default ConvertSimple
